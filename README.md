@@ -10,15 +10,6 @@ Les Technos utilisées par le site SimplonMIP :
     - Browser sync
     - JQuery
     
-Dans la console : 
+Dans la console dans le dossier cloné : 
 
--Installer gulp : npm install --g gulp browser-sync
--npm install
--Si vous avez une erreur jshint (récurrente), supprimez votre dossier node_modules et relancez un npm install
-
-
-                  
-                  
-                  
-
-    
+-$ npm install ou -$ sudo npm install, le cas échéant devra télécharger tous les composants nécessaires.
