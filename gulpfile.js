@@ -8,6 +8,7 @@ var browserSync = require('browser-sync').create();
 var browserify = require('browserify');
 var source     = require('vinyl-source-stream');
 var uglify     = require('gulp-uglify');
+var mustache   = require('mustache');
 
 // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function() {

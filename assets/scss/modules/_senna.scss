@@ -1,12 +1,15 @@
 /* Loading */
+
 .senna-loading-bar {
   background: #2aaae6;
-  background: rgba(255, 255, 255, 0.5); }
+  background: rgba(255, 255, 255, .5)
+}
 
 .senna-loading .senna-loading-bar {
   animation: shift-rightwards 1s ease-in-out infinite;
   animation-delay: .4s;
-  display: block; }
+  display: block
+}
 
 .senna-loading-bar {
   transform: translateX(100%);
@@ -17,30 +20,40 @@
   position: fixed;
   right: 0;
   top: 0;
-  z-index: 1000; }
+  z-index: 1000
+}
 
 @keyframes shift-rightwards {
   0% {
-    transform: translateX(-100%); }
+    transform: translateX(-100%)
+  }
   40%,
   60% {
-    transform: translateX(0); }
+    transform: translateX(0)
+  }
   to {
-    transform: translateX(100%); } }
+    transform: translateX(100%)
+  }
+}
 
 /* Transition */
+
 [class^="senna-transition-"] .flipped {
   animation-duration: 0.40s;
-  animation-fill-mode: both; }
+  animation-fill-mode: both;
+}
 
 @keyframes fadeIn {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
+
   100% {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 .senna-transition-fade .flipped {
-  animation-name: fadeIn; }
+  animation-name: fadeIn;
+}
 
-body {
-  background-color: green; }

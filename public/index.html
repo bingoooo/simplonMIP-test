@@ -8,32 +8,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="../node_modules/semantic-ui-css/semantic.min.css">
-        <link rel="stylesheet" href="../node_modules/senna/build/senna.css">
-        <link rel="stylesheet" href="css/app.css/main.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
+    <section id="main"></section>
         <div id="content">
             <div id="content-default">
             <h1>Base</h1>
             <!-- Contenu des pages chargés grace a Senna -->
             </div>
-        </div>
-        
-    <script>
-    var app = new senna.App();
-    app.setBasePath('/');
-    app.addSurfaces('content');
-    app.addRoutes(new senna.Route(/\w+\.html/, senna.HtmlScreen));
-    </script>
-        
+        </div>  
         <!-- chargement des scripts -->
-        <script src="../node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="../node_modules/semantic-ui-css/semantic.min.js"></script>
-        <script src="../node_modules/mustache/mustache.min.js"></script>
-        <script src="../node_modules/senna/build/senna.js"></script>
-        <script src="../assets/js/app.js"></script>
+        <script src="js/bundle.js"></script>
+        <script src="js/load.js" type="text/javascript"></script>
 
     </body>
 </html>

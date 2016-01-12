@@ -2,7 +2,6 @@
 window.$ = require('jquery');
 var Mustache = require('mustache');
 
-alert('yatta');
 var app = {
 	config: {
 		url:"https://smp.ovh",
@@ -17,6 +16,8 @@ var app = {
 		$("#main").html(output);
 	}
 };
+
+
 
 $(document).ready(function(){
 	app.init();
