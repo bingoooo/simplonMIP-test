@@ -1,0 +1,41 @@
+{
+  "name": "simplonmip",
+  "version": "1.0.0",
+  "description": "site de simplonmip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Floune/Base-SimplonMIP.git"
+  },
+  "author": "simplonmip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Floune/Base-SimplonMIP/issues"
+  },
+  "homepage": "https://github.com/Floune/Base-SimplonMIP#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "mustache": "^2.2.1",
+    "semantic-ui-css": "^2.1.8",
+    "senna": "^0.4.2",
+    "zepto": "^1.0.1",
+    "jshint": "~2.9.1-rc2",
+    "jquery": "~2.2.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^2.1.1",
+    "browser-sync": "~2.11.0",
+    "gulp-util": "~3.0.7",
+    "gulp-jshint": "~2.0.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-sourcemaps": "~1.6.0",
+    "browserify": "~13.0.0",
+    "vinyl-transform": "~1.0.0",
+    "gulp": "~3.9.0",
+    "uglify": "~0.1.5",
+    "vinyl-source-stream": "~1.1.0"
+  }
+}
