@@ -12,10 +12,7 @@ Les Technos utilisées par le site SimplonMIP :
     
 Dans la console : 
 
--Installer gulp : npm install --g gulp browser-sync
--npm install
--Si vous avez une erreur jshint (récurrente), supprimez votre dossier node_modules et relancez un npm install
-
+* npm install 
 
                   
                   
