@@ -36,6 +36,11 @@ gulp.task('jshint', function() {
     .pipe(jshint.reporter());
 });
 
+gulp.task('compress', function() {
+  return gulp.src('assets/js/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('./public/js/'));
+});
 
 gulp.task('browserify', function () {
   return browserify({
