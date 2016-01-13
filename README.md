@@ -12,7 +12,9 @@ Les Technos utilisées par le site SimplonMIP :
     
 Dans la console : 
 
-* npm install 
+* npm install gulp-uglify
+* npm install
+* Dans votre fichier /etc/hosts ajoutez la ligne : 192.168.1.97 server:8080
 
                   
                   
