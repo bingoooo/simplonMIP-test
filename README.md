@@ -12,7 +12,7 @@ Les Technos utilisées par le site SimplonMIP :
     
 Rajouter dans etc/hosts : 192.168.1.97 server.dev
 
-Avant d'installer quoique ce soit avec npm npm config set registry http://server.dev:8080/
+Avant d'installer quoique ce soit avec npm `npm config set registry http://server.dev:8080/`
 
 
 Dans la console : 
