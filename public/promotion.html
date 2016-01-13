@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="semantic-ui-css-master/semantic.min.css">
+	<link rel="stylesheet" href="style.css">
+	<META NAME="Description" CONTENT="Description de la promotion Simplon Midi-Pyrenées">
+		<title> Promotion </title>
+	</head>
+	<body>
+
+		<div class="ui center aligned padded grid">
+			<div class="sixteen wide column">
+				<div class="row">
+					<h1 class="ui dividing header" tabindex="0">Promo 2016</h1>	
+				</div>
+			</div>
+		</div>
+		<!-- ligne de 4 images sur une rangée-->
+		<div id="cards" class="ui four stackable cards"> 
+			<script id="cardTemplate" type="text/plain">
+				// chargement des photos avec boucle moustache 
+				{{# users}} 
+				<div class="ui card">
+					<div><img src="{{portrait}}" width="100%">
+					</div>
+
+					<div class="extra">
+						<a><h5  class="header">{{id}}</h5></a>
+					</div>
+				</div>
+				{{/ users}}
+			</script>
+		</div>
+
+		<script src="jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="semantic-ui-css-master/semantic.min.js"></script>
+		<script src="mustache.js"></script>
+		<script type="text/javascript" src="photoMustache.js"></script>
+	</body>
+	</html>
