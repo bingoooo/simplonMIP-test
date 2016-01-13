@@ -1,0 +1,23 @@
+{
+  "name": "simplonmip",
+  "description": "site de simplonmip",
+  "main": "index.js",
+  "authors": [
+    "simplonmip"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/bingoooo/simplonMIP-test",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/components",
+    "test",
+    "tests"
+  ]
+}
