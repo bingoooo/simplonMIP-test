@@ -10,7 +10,9 @@ Les Technos utilisées par le site SimplonMIP :
     - Browser sync
     - JQuery
     
-Rajouter dans etc/hosts : 192.168.1.97 server.dev
+Editez le fichier hosts. Dans la console : `vim etc/hosts` 
+Ajoutez la ligne : `192.168.1.97 server.dev`
+pour enregistrer : Echap puis `:wq` puis entrée.
 
 Avant d'installer quoique ce soit avec npm `npm config set registry http://server.dev:8080/`
 
