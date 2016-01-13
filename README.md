@@ -14,6 +14,7 @@ Dans la console :
 
 * npm install gulp-uglify
 * npm install
+* bower install (installer bower avec npm si ce n'est pas fait)
 * Dans votre fichier /etc/hosts ajoutez la ligne : 192.168.1.97 server:8080
 
                   
