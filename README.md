@@ -10,14 +10,18 @@ Les Technos utilisées par le site SimplonMIP :
     - Browser sync
     - JQuery
     
+Rajouter dans etc/hosts : 192.168.1.97 server.dev
+
+Avant d'installer quoique ce soit avec npm npm config set registry http://server.dev:8080/
+
+
 Dans la console : 
 
-* npm install gulp-uglify
-* npm install
-* bower install (installer bower avec npm si ce n'est pas fait)
-* Dans votre fichier /etc/hosts ajoutez la ligne : 192.168.1.97 server:8080
+    $ npm install -g bower
+    $ npm install gulp-uglify
+    $ npm install 
+    $ bower install 
 
-                  
                   
                   
 
