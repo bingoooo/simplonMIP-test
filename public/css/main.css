@@ -52,3 +52,51 @@ body {
   margin: 0;
   border-radius: 0px;
 }
+
+
+.texte1 {
+  
+  position: relative;
+  margin: 0 auto;
+  width: 800px;
+  top: 40px;
+}
+
+.texte2 {
+  
+  position: relative;
+  margin: 0 auto;
+  width: 800px;
+  top: 90px;
+}
+
+.ui.small.images {
+  
+  margin-top: 450px;
+  margin-left: 300px;
+
+}
+
+.part {
+  
+  position: relative;
+  top: 420px;
+  margin-left: 40px;
+  
+}
+
+.actu {
+  
+  position: relative;
+  top: 300px;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.actu h2 {
+  
+  text-align: center;
+}
+
+
+
