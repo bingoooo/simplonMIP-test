@@ -1,0 +1,18 @@
+#bouton_fermeture:hover {
+	cursor:  pointer;
+	border-radius:10px;
+}
+.bloc.annonces {
+	background-color: #ECEFF1;
+	box-shadow: 5px 5px 5px grey;
+	border-radius: 7px;
+	border: 1px solid #263238;
+	width:650px;
+}
+
+#bouton_annonces {
+	box-shadow: 3px 3px 3px pink;
+}
+#fenetre_annonces {
+	top: 20%;
+}
