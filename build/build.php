@@ -24,6 +24,7 @@ class Build {
 		$this->recurseCopy($this->dir.'public/css', $this->dist.'css');
 		$this->recurseCopy($this->dir.'public/js', $this->dist.'js');
 		$this->recurseCopy($this->dir.'public/img', $this->dist.'img');
+		copy($this->dir.'user.json', $this->dist.'user.json');
 		rename($this->dist.'accueil.html', $this->dist.'index.html');
 	}
 	public function renameIndex(){

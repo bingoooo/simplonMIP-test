@@ -42,12 +42,86 @@
 .senna-transition-fade .flipped {
   animation-name: fadeIn; }
 
+.actualites div.ui.segment {
+  height: 100%; }
+
+.actualites .ui.basic.segment {
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 0.285714rem; }
+
 #partenaire {
   color: black; }
   #partenaire:visited {
     text-decoration: none; }
   #partenaire:hover {
     color: white; }
+
+.johnson.close.icon:hover {
+  cursor: pointer;
+  border-radius: 10px; }
+
+.johnson.ui.segment.bloc.annonces {
+  background-color: #ECEFF1;
+  box-shadow: 5px 5px 5px grey; }
+
+.johnson.ui.massive.green.button {
+  box-shadow: 3px 3px 3px pink; }
+
+.johnson.ui.fullscreen.modal {
+  top: 20%; }
+
+/* Loading */
+.senna-loading-bar {
+  background: #2aaae6;
+  background: rgba(255, 255, 255, 0.5); }
+
+.senna-loading .senna-loading-bar {
+  animation: shift-rightwards 1s ease-in-out infinite;
+  animation-delay: .4s;
+  display: block; }
+
+.senna-loading-bar {
+  transform: translateX(100%);
+  background: #2fa4f5;
+  display: none;
+  height: 2px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000; }
+
+@keyframes shift-rightwards {
+  0% {
+    transform: translateX(-100%); }
+  40%,
+  60% {
+    transform: translateX(0); }
+  to {
+    transform: translateX(100%); } }
+
+/* Transition */
+[class^="senna-transition-"] .flipped {
+  animation-duration: 0.40s;
+  animation-fill-mode: both; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.senna-transition-fade .flipped {
+  animation-name: fadeIn; }
+
+body {
+  background-color: white;
+  margin: 0; }
+
+.ui.segment {
+  margin: 0;
+  border-radius: 0px; }
 
 body {
   background-color: #FCFCFC; }
