@@ -1,0 +1,123 @@
+{ "users" :	[
+	{
+		"id": "Semere Binian",
+		"portrait": "img/p1_biniam.jpg",
+		"overlay": "img/p1_biniam-alt.jpg"
+	},
+	{
+		"id": "Andréa Buisset",
+		"portrait": "img/andrea.jpg",
+		"overlay": "img/p1_andrea-alt.jpg"
+	},
+	{
+		"id": "Thomas Bricquet",
+		"portrait": "img/p1_thomasb.jpg",
+		"overlay": "img/p1_thomasb-alt.jpg"
+	},
+	{
+		"id": "Allan Cerveaux",
+		"portrait": "img/p1_allan.jpg",
+		"overlay": "img/p1_allan-alt.jpg"
+	},
+	{
+		"id": "Justin Chaikhy",
+		"portrait": "img/p1_justin.jpg",
+		"overlay": "img/p1_justin-alt.jpg"
+	},
+	{
+		"id": "Benjamin Dant",
+		"portrait": "img/p1_benjamin.jpg",
+		"overlay": "img/p1_benjamin-alt.jpg"
+	},{
+		"id": "Samar Ali",
+		"portrait": "img/p1_samar.jpg",
+		"overlay": "img/p1_samar-alt.jpg"
+	},
+	{
+		"id": "Robin Fournier",
+		"portrait": "http://www.seconde-guerre.com/photos/goebbels.jpg",
+		"overlay": "http://www.seconde-guerre.com/photos/goebbels.jpg"
+	},
+	{
+		"id": "Thomas Goudenove",
+		"portrait": "img/p1_thomasg.jpg",
+		"overlay": "img/p1_thomasg-alt.jpg"
+	},
+	{
+		"id": "Floriane Grondin",
+		"portrait": "img/p1_floriane.jpg",
+		"overlay": "img/p1_floriane-alt.jpg"
+	},
+	{
+		"id": "Mehdi Hennaoui",
+		"portrait": "img/p1_mehdi.jpg",
+		"overlay": "img/p1_mehdi-alt.jpg"
+	},
+	{
+		"id": "Sébastien Jarjanette",
+		"portrait": "img/p1_sebastien.jpg",
+		"overlay": "img/p1_sebastien-alt.jpg"
+	},
+	{
+		"id": "Alice Jeanblanc",
+		"portrait": "img/p1_alice.jpg",
+		"overlay": "img/p1_alice-alt.jpg"
+	},
+	{
+		"id": "Karine Lachkar",
+		"portrait": "img/p1_karine.jpg",
+		"overlay": "img/p1_karine-alt.jpg"
+	},
+	{
+		"id": "Anis Lakhdar",
+		"portrait": "img/p1_anis.jpg",
+		"overlay": "img/p1_anis-alt.jpg"
+	},
+	{
+		"id": "Louis Metais",
+		"portrait": "img/p1_louis.jpg",
+		"overlay": "img/p1_louis-alt.jpg"
+	},
+	{
+		"id": "Oriane Milekic",
+		"portrait": "img/p1_oriane.jpg",
+		"overlay": "img/p1_oriane-alt.jpg"
+	},
+	{
+		"id": "Jérôme Mouly",
+		"portrait": "img/p1_jerome.jpg",
+		"overlay": "img/p1_jerome-alt.jpg"
+	},
+	{
+		"id": " Hervé  Perez",
+		"portrait": "img/p1_herve.jpg",
+		"overlay": "img/p1_herve-alt.jpg"
+	},
+	{
+		"id": "Raphael Ruiz",
+		"portrait": "img/p1_raphael.jpg",
+		"overlay": "img/p1_raphael-alt.jpg"
+	},
+	{
+		"id": "Nicolas San Pedro",
+		"portrait": "img/p1_nicolas.jpg",
+		"overlay": "img/p1_nicolas-alt.jpg"
+	},
+	{
+		"id": "Hayate Sehli",
+		"portrait": "img/p1_hayate.jpg",
+		"overlay": "img/p1_hayate-alt.jpg"
+	},
+	{
+		"id": "Marie Sochala",
+		"portrait": "img/p1_marie.jpg",
+		"overlay": "img/p1_marie-alt.jpg"
+	},
+	{
+		"id": "Yoann Soulié",
+		"portrait": "img/p1_yoann.jpg",
+		"overlay": "img/p1_yoann-alt.jpg"
+	}
+																					
+	]
+}

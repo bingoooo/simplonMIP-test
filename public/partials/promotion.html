@@ -1,27 +1,28 @@
 
-		<!-- segment contenent  h1 -->
-		<div class="ui center aligned padded grid">
-			<div class="sixteen wide column">
-				<div class="row">
-					<h1 class="ui dividing header" tabindex="0">Promo 2016</h1>	
-				</div>
+<!-- segment contenent  h1 -->
+<div class="ui center aligned padded grid">
+	<div class="sixteen wide column">
+		<div class="row">
+			<h1 class="ui dividing header" tabindex="0">Promo 2016</h1>	
+		</div>
+	</div>
+</div>
+<!-- ligne de 4 images sur une rangée-->
+<div id="cards" class="ui four stackable cards"> 
+	<script id="cardTemplate" type="text/plain">
+		<!--chargement des photos avec boucle moustache--> 
+		{{# users}} 
+		<div class="ui card">
+			<div><img src="{{portrait}}" width="100%">
+			</div>
+
+			<div class="extra">
+				<a><h5  class="header">{{id}}</h5></a>
 			</div>
 		</div>
-		<!-- ligne de 4 images sur une rangée-->
-		<div id="cards" class="ui four stackable cards"> 
-			<script id="cardTemplate" type="text/plain">
-				// chargement des photos avec boucle moustache 
-				{{# users}} 
-				<div class="ui card">
-					<div><img src="{{portrait}}" width="100%">
-					</div>
-
-					<div class="extra">
-						<a><h5  class="header">{{id}}</h5></a>
-					</div>
-				</div>
-				{{/ users}}
-			</script>
-		</div>
-
+		{{/ users}}
+	</script>
+</div>
+<script type="text/javascript" src="js/mustache.min.js"></script>
+<script type="text/javascript" src="js/promtion.js"></script>
 		
