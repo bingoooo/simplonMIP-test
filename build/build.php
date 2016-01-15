@@ -2,6 +2,7 @@
 
 class Build {
 	private $files = [];
+	private $titles;
 	private $dir;
 	private $dist;
 	public function __construct(){
