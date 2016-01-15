@@ -1,12 +1,11 @@
 body {
 	font-family: ubuntu;
 	background-color: #FEFEFE;
-	zoom:100%;
 		#bandeau {
 			background-color: #1b1c1d;
 			font-family: Open Sans, sans-serif;
 			color: white; 
-				img {
+				img.ui.centered.small-medium.image {
 					border-radius:50%;}
 		}
 		.bio {
