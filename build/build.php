@@ -2,7 +2,7 @@
 
 class Build {
 	private $files = [];
-	private $titles;
+	private $titles = [];
 	private $dir;
 	private $dist;
 	public function __construct(){
@@ -38,6 +38,7 @@ class Build {
 	public function mergeFile($page, $fn){
 		ob_start();
 		$content = $page;
+		$title = 'Simplon MIP';
 		include $this->dir.'index.php';
 		$out = ob_get_contents();
 		ob_end_clean();
