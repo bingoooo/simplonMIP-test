@@ -1,0 +1,123 @@
+{ "users" :	[
+	{
+		"id": "Semere Binian",
+		"portrait": "promo_1/p1_biniam.jpg",
+		"overlay": "promo_1/p1_biniam-alt.jpg"
+	},
+	{
+		"id": "Andréa Buisset",
+		"portrait": "promo_1/andrea.jpg",
+		"overlay": "promo_1/p1_andrea-alt.jpg"
+	},
+	{
+		"id": "Thomas Bricquet",
+		"portrait": "promo_1/p1_thomasb.jpg",
+		"overlay": "promo_1/p1_thomasb-alt.jpg"
+	},
+	{
+		"id": "Allan Cerveaux",
+		"portrait": "promo_1/p1_allan.jpg",
+		"overlay": "promo_1/p1_allan-alt.jpg"
+	},
+	{
+		"id": "Justin Chaikhy",
+		"portrait": "promo_1/p1_justin.jpg",
+		"overlay": "promo_1/p1_justin-alt.jpg"
+	},
+	{
+		"id": "Benjamin Dant",
+		"portrait": "promo_1/p1_benjamin.jpg",
+		"overlay": "promo_1/p1_benjamin-alt.jpg"
+	},{
+		"id": "Samar Ali",
+		"portrait": "promo_1/p1_samar.jpg",
+		"overlay": "promo_1/p1_samar-alt.jpg"
+	},
+	{
+		"id": "Robin Fournier",
+		"portrait": "promo_1/p1_robin.jpg",
+		"overlay": "promo_1/p1_robin-alt.jpg"
+	},
+	{
+		"id": "Thomas Goudenove",
+		"portrait": "promo_1/p1_thomasg.jpg",
+		"overlay": "promo_1/p1_thomasg-alt.jpg"
+	},
+	{
+		"id": "Floriane Grondin",
+		"portrait": "promo_1/p1_floriane.jpg",
+		"overlay": "promo_1/p1_floriane-alt.jpg"
+	},
+	{
+		"id": "Mehdi Hennaoui",
+		"portrait": "promo_1/p1_mehdi.jpg",
+		"overlay": "promo_1/p1_mehdi-alt.jpg"
+	},
+	{
+		"id": "Sébastien Jarjanette",
+		"portrait": "promo_1/p1_sebastien.jpg",
+		"overlay": "promo_1/p1_sebastien-alt.jpg"
+	},
+	{
+		"id": "Alice Jeanblanc",
+		"portrait": "promo_1/p1_alice.jpg",
+		"overlay": "promo_1/p1_alice-alt.jpg"
+	},
+	{
+		"id": "Karine Lachkar",
+		"portrait": "promo_1/p1_karine.jpg",
+		"overlay": "promo_1/p1_karine-alt.jpg"
+	},
+	{
+		"id": "Anis Lakhdar",
+		"portrait": "promo_1/p1_anis.jpg",
+		"overlay": "promo_1/p1_anis-alt.jpg"
+	},
+	{
+		"id": "Louis Metais",
+		"portrait": "promo_1/p1_louis.jpg",
+		"overlay": "promo_1/p1_louis-alt.jpg"
+	},
+	{
+		"id": "Oriane Milekic",
+		"portrait": "promo_1/p1_oriane.jpg",
+		"overlay": "promo_1/p1_oriane-alt.jpg"
+	},
+	{
+		"id": "Jérôme Mouly",
+		"portrait": "promo_1/p1_jerome.jpg",
+		"overlay": "promo_1/p1_jerome-alt.jpg"
+	},
+	{
+		"id": " Hervé  Perez",
+		"portrait": "promo_1/p1_herve.jpg",
+		"overlay": "promo_1/p1_herve-alt.jpg"
+	},
+	{
+		"id": "Raphael Ruiz",
+		"portrait": "promo_1/p1_raphael.jpg",
+		"overlay": "promo_1/p1_raphael-alt.jpg"
+	},
+	{
+		"id": "Nicolas San Pedro",
+		"portrait": "promo_1/p1_nicolas.jpg",
+		"overlay": "promo_1/p1_nicolas-alt.jpg"
+	},
+	{
+		"id": "Hayate Sehli",
+		"portrait": "promo_1/p1_hayate.jpg",
+		"overlay": "promo_1/p1_hayate-alt.jpg"
+	},
+	{
+		"id": "Marie Sochala",
+		"portrait": "promo_1/p1_marie.jpg",
+		"overlay": "promo_1/p1_marie-alt.jpg"
+	},
+	{
+		"id": "Yoann Soulié",
+		"portrait": "promo_1/p1_yoann.jpg",
+		"overlay": "promo_1/p1_yoann-alt.jpg"
+	}
+																					
+	]
+}
