@@ -21,7 +21,7 @@ var app = {
 
 
 $(document).ready(function(){
-	app.init();
+	//app.init();
 });
 },{"jquery":5,"mustache":6}],2:[function(require,module,exports){
 "use strict";
