@@ -42,5 +42,12 @@
 .senna-transition-fade .flipped {
   animation-name: fadeIn; }
 
+#partenaire {
+  color: black; }
+  #partenaire:visited {
+    text-decoration: none; }
+  #partenaire:hover {
+    color: white; }
+
 body {
   background-color: #FCFCFC; }
