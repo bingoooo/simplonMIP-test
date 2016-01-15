@@ -101,4 +101,4 @@ node_modules
 
 assets/components
 index.php
-dist/
+dist
