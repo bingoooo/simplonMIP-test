@@ -1,3 +1,4 @@
+dist
 
 # Created by https://www.gitignore.io/api/osx,windows,linux,node
 
@@ -101,4 +102,3 @@ node_modules
 
 assets/components
 index.php
-dist
