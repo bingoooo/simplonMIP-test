@@ -1,18 +1,15 @@
-#bouton_fermeture:hover {
+.johnson.close.icon:hover {
 	cursor:  pointer;
 	border-radius:10px;
 }
-.bloc.annonces {
+.johnson.ui.segment.bloc.annonces {
 	background-color: #ECEFF1;
 	box-shadow: 5px 5px 5px grey;
-	border-radius: 7px;
-	border: 1px solid #263238;
-	width:650px;
 }
 
-#bouton_annonces {
+.johnson.ui.massive.green.button {
 	box-shadow: 3px 3px 3px pink;
 }
-#fenetre_annonces {
+.johnson.ui.fullscreen.modal {
 	top: 20%;
 }
